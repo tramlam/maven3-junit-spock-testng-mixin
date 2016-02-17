@@ -92,13 +92,13 @@ public class TestNGDemoJavaTest {
     public void listLength1() {
         mylist = Arrays.asList("abc", "def", "ghi");
         System.out.println(mylist);
-        assertEquals(2, mylist.size());
+        assertEquals(3, mylist.size());
     }
 
     @Test
     public void listLenngth2() {
         System.out.println(mylist);
-        assertEquals(2, mylist.size());
+        assertEquals(3, mylist.size());
     }
 
 }
